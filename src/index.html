@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="menu">
+            <a href="#">
+                <img class="logo-menu" src="../public/assets/logo.svg" alt="logo">
+            </a>
+
+            <div class="search">
+                <input class="search-input" type="text" id="search-input" placeholder="Search for a city">
+                <button id="search-button">
+                    <img class="search-icon" src="../public/assets/procurar.svg" alt="botao de pesquisa">
+                </button>
+            </div>
+        </header>
+
+        <main class="content">
+            <section class="weather-info">
+                <h1 class="city-name">São Paulo, SP</h1>
+                <p class="date">Monday, 2023-08-21 12:00</p>
+
+                <img class="weather-icon" src="../public/assets/shadow.svg" alt="ícone do clima">
+                <p>Cloudy</p>
+                <div class="temperature">
+                    <div class="humidity">Humidity: 70%</div>
+                    <div class="wind-speed">Wind Speed: 10 km/h</div>
+                    <div class="pressure">Pressure: 1013 hPa</div>
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>5-Day Forecast</h2>
+                <div class="forecast-list">
+
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>Hourly Forecast</h2>
+                <div class="forecast-list">
+
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p>&copy; 2023 Weather-App. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
